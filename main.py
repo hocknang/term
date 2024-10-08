@@ -22,7 +22,7 @@ pages = {
 
 # Add a sidebar for navigation
 st.sidebar.title("Navigation")
-selection = st.sidebar.radio("Go to", list(pages.keys()))
+selection = st.sidebar("Go to", list(pages.keys()))
 
 # Display the selected page
 page = pages[selection]
