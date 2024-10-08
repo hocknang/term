@@ -4,9 +4,6 @@ import streamlit as st
 def page_home():
     st.title("Home")
     st.write("Welcome to the Home Page.")
-    st.write("Welcome to the Home Page.")
-    st.write("Welcome to the Home Page.")
-
 
 def page_about():
     st.title("About")
@@ -18,9 +15,9 @@ def page_contact():
 
 # Create a dictionary of pages
 pages = {
-    "Home": page_home,
-    "About": page_about,
-    "Contact": page_contact
+    "EmPOWER": page_home,
+    "ASK TADM": page_about,
+    "Awards": page_contact
 }
 
 # Add a sidebar for navigation
