@@ -101,7 +101,7 @@ def home():
     
     <div class="mySlides fade">
       <div class="numbertext">4 / 4</div>
-      <img src="https://github.com/hocknang/term/blob/main/picture/tadm%20icon.png" style="width:100%">
+      <img src="https://raw.githubusercontent.com/hocknang/term/refs/heads/main/picture/tadm%20icon.png" style="width:100%">
       <div class="text">Caption Three</div>
     </div>
 
