@@ -20,7 +20,7 @@ def page_awards():
 pages = {
     "EmPOWER": page_home,
     "ASK TADM": page_chatbot,
-    "Awards": page_awards
+    "Awards And Events": page_awards
 }
 
 # Add a sidebar for navigation
