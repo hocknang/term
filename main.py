@@ -8,7 +8,7 @@ def page_home():
     empower.home()
 
 
-def page_about():
+def page_chatbot():
     st.title("About")
     st.write("This is the About Page.")
 
@@ -19,7 +19,7 @@ def page_awards():
 # Create a dictionary of pages
 pages = {
     "EmPOWER": page_home,
-    "ASK TADM": page_about,
+    "ASK TADM": page_chatbot,
     "Awards": page_awards
 }
 
