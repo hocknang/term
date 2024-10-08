@@ -1,6 +1,7 @@
 import streamlit as st
 import empower as empower
 import awards as awards
+import asktadm as asktadm
 
 
 # Define the pages
@@ -9,8 +10,7 @@ def page_home():
 
 
 def page_chatbot():
-    st.title("About")
-    st.write("This is the About Page.")
+   asktadm.home()
 
 def page_awards():
     awards.home()
