@@ -5,7 +5,7 @@ import streamlit.components.v1 as components
 def home():
     st.title("Awards And Events")
 
-    st.components.html(
+components.html(
     """
 <!DOCTYPE html>
 <html>
