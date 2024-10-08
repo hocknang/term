@@ -2,6 +2,7 @@ import streamlit as st
 import empower as empower
 import awards as awards
 import asktadm as asktadm
+import photo as photo
 
 
 # Define the pages
@@ -16,11 +17,16 @@ def page_awards():
     awards.home()
 
 
+def page_photo_gallery():
+    photo.home()
+
+
 # Create a dictionary of pages
 pages = {
     "EmPOWER": page_home,
     "ASK TADM": page_chatbot,
-    "Awards And Events": page_awards
+    "Awards And Events": page_awards,
+    "Photo Gallery": page_photo_gallery
 }
 
 # Add a sidebar for navigation
