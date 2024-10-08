@@ -82,20 +82,26 @@ def home():
     <div class="slideshow-container">
 
     <div class="mySlides fade">
-      <div class="numbertext">1 / 3</div>
+      <div class="numbertext">1 / 4</div>
       <img src="https://unsplash.com/photos/GJ8ZQV7eGmU/download?force=true&w=1920" style="width:100%">
       <div class="text">Caption Text</div>
     </div>
 
     <div class="mySlides fade">
-      <div class="numbertext">2 / 3</div>
+      <div class="numbertext">2 / 4</div>
       <img src="https://unsplash.com/photos/eHlVZcSrjfg/download?force=true&w=1920" style="width:100%">
       <div class="text">Caption Two</div>
     </div>
 
     <div class="mySlides fade">
-      <div class="numbertext">3 / 3</div>
+      <div class="numbertext">3 / 4</div>
       <img src="https://unsplash.com/photos/zVhYcSjd7-Q/download?force=true&w=1920" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 4</div>
+      <img src="https://github.com/hocknang/term/blob/main/picture/tadm%20icon.png" style="width:100%">
       <div class="text">Caption Three</div>
     </div>
 
