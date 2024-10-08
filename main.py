@@ -5,7 +5,7 @@ import empower as empower
 # Define the pages
 def page_home():
     empower.home()
-    
+
 def page_about():
     st.title("About")
     st.write("This is the About Page.")
