@@ -18,7 +18,7 @@ def page_awards():
 
 # Create a dictionary of pages
 pages = {
-    "EmPOWER": page_home,
+    "📻": page_home,
     "ASK TADM": page_chatbot,
     "Awards": page_awards
 }
