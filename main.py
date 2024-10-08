@@ -1,19 +1,19 @@
 import streamlit as st
 import empower as empower
+import awards as awards
 
 
 # Define the pages
 def page_home():
     empower.home()
 
+
 def page_about():
     st.title("About")
     st.write("This is the About Page.")
 
-
 def page_awards():
-    st.title("Awards")
-    st.write("Here is the Contact Page.")
+    awards.home()
 
 
 # Create a dictionary of pages
