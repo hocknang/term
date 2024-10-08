@@ -1,29 +1,23 @@
 import streamlit as st
+from streamlit_option_menu import option_menu
 
-# Define the pages
-def page_home():
-    st.title("Home")
-    st.write("Welcome to the Home Page.")
+# Sidebar option menu
+with st.sidebar:
+    selected = option_menu(
+        menu_title="Main Menu",  # Required
+        options=["Home", "About", "Contact"],  # Required
+        icons=["house", "info", "envelope"],  # Optional, icons from FontAwesome
+        menu_icon="cast",  # Optional
+        default_index=0,  # Optional, sets the Home option as the default
+    )
 
-def page_about():
-    st.title("About")
-    st.write("This is the About Page.")
-
-def page_contact():
-    st.title("Contact")
-    st.write("Here is the Contact Page.")
-
-# Create a dictionary of pages
-pages = {
-    "EmPOWER": page_home,
-    "ASK TADM": page_about,
-    "Awards": page_contact
-}
-
-# Add a sidebar for navigation
-st.sidebar.title("Navigation")
-selection = st.sidebar.radio("Go to", list(pages.keys()))
-
-# Display the selected page
-page = pages[selection]
-page()
+# Display selected page content
+if selected == "Home":
+    st.title("Welcome to the Home Page")
+    st.write("This is the Home page of the app.")
+elif selected == "About":
+    st.title("About Us")
+    st.write("Here is information about us.")
+elif selected == "Contact":
+    st.title("Contact Us")
+    st.write("You can reach us via this page.")
