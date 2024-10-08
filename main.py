@@ -2,8 +2,7 @@
 
 import streamlit as st
 
-st.set_page_config(
-    page_title="EmPOWER"
-)
+st.header("EmPOWER")
 
-st.title("EmPOWER")
+#
+logout_page = st.Page("AskTADM.py", title="AskTADM")
