@@ -4,6 +4,9 @@ import streamlit as st
 def page_home():
     st.title("Home")
     st.write("Welcome to the Home Page.")
+    st.write("Welcome to the Home Page.")
+    st.write("Welcome to the Home Page.")
+
 
 def page_about():
     st.title("About")
