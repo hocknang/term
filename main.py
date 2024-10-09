@@ -5,6 +5,7 @@ import asktadm as asktadm
 import photo as photo
 import uPhoto as uPhoto
 import video as video
+import question as question
 
 
 # Define the pages
@@ -31,13 +32,17 @@ def page_upload_photo():
 def page_video():
     video.home()
 
+def page_question():
+    question.home()
+
 
 # Create a dictionary of pages
 pages = {
     "EmPOWER": page_home,
     "ASK TADM": page_chatbot,
     "Awards And Events": page_awards,
-    "Video": page_video
+    "Video": page_video,
+    "MCQ Question": page_question()
 }
 
 # Add a sidebar for navigation
