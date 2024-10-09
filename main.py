@@ -4,6 +4,7 @@ import awards as awards
 import asktadm as asktadm
 import photo as photo
 import uPhoto as uPhoto
+import video as video
 
 
 # Define the pages
@@ -24,6 +25,9 @@ def page_photo_gallery():
 def page_upload_photo():
     uPhoto.home()
 
+def page_video():
+    video.home()
+
 
 # Create a dictionary of pages
 pages = {
@@ -31,7 +35,8 @@ pages = {
     "ASK TADM": page_chatbot,
     "Awards And Events": page_awards,
     "Photo Gallery": page_photo_gallery,
-    "Upload Photo" : page_upload_photo
+    "Upload Photo" : page_upload_photo,
+    "Video": page_video
 }
 
 # Add a sidebar for navigation
