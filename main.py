@@ -33,17 +33,6 @@ def page_video():
 
 
 # Create a dictionary of pages
-"""
-pages = {
-    "EmPOWER": page_home,
-    "ASK TADM": page_chatbot,
-    "Awards And Events": page_awards,
-    "Photo Gallery": page_photo_gallery,
-    "Upload Photo" : page_upload_photo,
-    "Video": page_video
-}
-"""
-
 pages = {
     "EmPOWER": page_home,
     "ASK TADM": page_chatbot,
