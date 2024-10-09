@@ -42,7 +42,7 @@ pages = {
     "ASK TADM": page_chatbot,
     "Awards And Events": page_awards,
     "Video": page_video,
-    "MCQ Question": page_question()
+    "MCQ Question": page_question
 }
 
 # Add a sidebar for navigation
