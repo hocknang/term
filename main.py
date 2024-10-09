@@ -13,7 +13,8 @@ def page_home():
 
 
 def page_chatbot():
-   asktadm.home()
+    asktadm.home()
+
 
 def page_awards():
     awards.home()
@@ -22,20 +23,31 @@ def page_awards():
 def page_photo_gallery():
     photo.home()
 
+
 def page_upload_photo():
     uPhoto.home()
+
 
 def page_video():
     video.home()
 
 
 # Create a dictionary of pages
+"""
 pages = {
     "EmPOWER": page_home,
     "ASK TADM": page_chatbot,
     "Awards And Events": page_awards,
     "Photo Gallery": page_photo_gallery,
     "Upload Photo" : page_upload_photo,
+    "Video": page_video
+}
+"""
+
+pages = {
+    "EmPOWER": page_home,
+    "ASK TADM": page_chatbot,
+    "Awards And Events": page_awards,
     "Video": page_video
 }
 
