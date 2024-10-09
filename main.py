@@ -6,6 +6,7 @@ import photo as photo
 import uPhoto as uPhoto
 import video as video
 import question as question
+import locateUs as locateUs
 
 
 # Define the pages
@@ -35,6 +36,9 @@ def page_video():
 def page_question():
     question.home()
 
+def page_location():
+    locateUs.home()
+
 
 # Create a dictionary of pages
 pages = {
@@ -42,7 +46,8 @@ pages = {
     "ASK TADM": page_chatbot,
     "Awards And Events": page_awards,
     "Video": page_video,
-    "MCQ Question": page_question
+    "MCQ Question": page_question,
+    "Locate Us": page_location
 }
 
 # Add a sidebar for navigation
